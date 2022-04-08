@@ -1,0 +1,251 @@
+.desktop-1 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 4042px;
+  width: 1440px;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.image-container {
+  align-items: flex-start;
+  display: flex;
+  height: 140px;
+  margin-left: 29px;
+  margin-top: 9px;
+  min-width: 627px;
+}
+
+.icon {
+  vertical-align: middle;
+  width: 65px;
+  height: 65px;
+   margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+.flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: -1px;
+  min-height: 75%;
+  width: 1440px;
+}
+
+.preview   {
+  height: 100%;
+  width: 100%;
+  margin-left: 15%;
+  margin-top: 99px;
+  object-fit: cover;
+  width: 1375px;
+}
+
+.image-10 {
+  height: 342px;
+  margin-left: 62px;
+  margin-top: 19px;
+  object-fit: cover;
+  width: 714px;
+}
+
+.text-1 {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-left: 35px;
+  margin-top: 1291px;
+  min-height: 33px;
+  text-align: center;
+  text-shadow: 0px 4px 4px 
+#00000040;
+  width: 621px;
+}
+
+.line-1 {
+  height: 4px;
+  margin-left: 41.01px;
+  margin-top: 9px;
+  width: 484px;
+}
+
+.overlap-group1 {
+  align-items: flex-end;
+  background-color: var(--black);
+  display: flex;
+  height: 117px;
+  min-width: 1440px;
+  padding: 12px 26px;
+}
+
+.x532-5328945_menu-bar {
+  align-self: center;
+  height: 35px;
+  margin-bottom: 1.35px;
+  object-fit: cover;
+  width: 35px;
+  border-radius: 25%;
+  background: url(532-5328945_menu-bar-icon-white-clipart-png-download-menu.png);
+}
+
+.rectangle-3 {
+  height: 40px;
+  margin-left: 744px;
+  object-fit: cover;
+  width: 40px;
+  border-radius: 30%
+}
+
+.inverted-1 {
+  height: 40px;
+  margin-left: 7px;
+  object-fit: cover;
+  width: 40px;
+  border-radius: 30%;
+}
+
+.phone {
+  letter-spacing: 0;
+  margin-bottom: 11px;
+  margin-left: 29px;
+  min-height: 29px;
+  width: 152px;
+  color:white
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.studio-kissgmailcom {
+  letter-spacing: 0;
+  margin-bottom: 15px;
+  line-height: 29px;
+  width: 251px;
+}
+
+.title {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: 56px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-right: 45px;
+  margin-top: 68px;
+  min-height: 157px;
+  width: 649px;
+}
+
+.overlap-group {
+  align-self: flex-start;
+  height: 486px;
+  margin-top: 90px;
+  position: relative;
+  width: 1014px;
+}
+
+.image-5 {
+  height: 390px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 97px;
+  width: 709px;
+  position: relative;
+  z-index: 9999999;
+  margin-left: 600px;
+  margin-top: 50px;
+}
+
+.text-2 {
+  color: var(--black);
+  font-family: var(--font-family-happy_monkey);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  left: 453px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 561px;
+}
+
+.image-9 {
+  align-self: flex-end;
+  height: 351px;
+  margin-right: 15px;
+  margin-top: 18px;
+  object-fit: cover;
+  width: 674px;
+  position: absolute;
+  z-index: 9999999;
+  margin-left: 500px;
+  margin-top: 25px;
+}
+.phoneinter-normal-white-20px{
+  font-size: 35px;
+}
+head{
+position: absolute;
+width: 1440px;
+height: 117px;
+left: 0px;
+top: -1px;
+background-image: url(img/blackbackground.jpg);
+}
+.v2 {
+  background: rgba(0,0,0,1);
+  width: 100%;
+  height: 117px;
+  font-size: 14px;
+}
+.background{
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: none;
+}
